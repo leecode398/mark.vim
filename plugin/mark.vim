@@ -210,41 +210,41 @@ nnoremap <silent> <Plug>MarkSearchPrev        :<C-u>if !mark#SearchNext(1)<Bar>e
 
 
 if !hasmapto('<Plug>MarkSet', 'n')
-	nmap <unique> <silent> <Leader>m <Plug>MarkSet
+	nmap <unique> <silent> <Leader>k <Plug>MarkSet
 endif
-if !hasmapto('<Plug>MarkSet', 'v')
-	vmap <unique> <silent> <Leader>m <Plug>MarkSet
-endif
-if !hasmapto('<Plug>MarkRegex', 'n')
-	nmap <unique> <silent> <Leader>r <Plug>MarkRegex
-endif
-if !hasmapto('<Plug>MarkRegex', 'v')
-	vmap <unique> <silent> <Leader>r <Plug>MarkRegex
-endif
-if !hasmapto('<Plug>MarkClear', 'n')
-	nmap <unique> <silent> <Leader>n <Plug>MarkClear
-endif
-" No default mapping for <Plug>MarkAllClear. 
-" No default mapping for <Plug>MarkToggle. 
-
-if !hasmapto('<Plug>MarkSearchCurrentNext', 'n')
-	nmap <unique> <silent> <Leader>* <Plug>MarkSearchCurrentNext
-endif
-if !hasmapto('<Plug>MarkSearchCurrentPrev', 'n')
-	nmap <unique> <silent> <Leader># <Plug>MarkSearchCurrentPrev
-endif
-if !hasmapto('<Plug>MarkSearchAnyNext', 'n')
-	nmap <unique> <silent> <Leader>/ <Plug>MarkSearchAnyNext
-endif
-if !hasmapto('<Plug>MarkSearchAnyPrev', 'n')
-	nmap <unique> <silent> <Leader>? <Plug>MarkSearchAnyPrev
-endif
-if !hasmapto('<Plug>MarkSearchNext', 'n')
-	nmap <unique> <silent> * <Plug>MarkSearchNext
-endif
-if !hasmapto('<Plug>MarkSearchPrev', 'n')
-	nmap <unique> <silent> # <Plug>MarkSearchPrev
-endif
+" if !hasmapto('<Plug>MarkSet', 'v')
+" 	vmap <unique> <silent> <Leader>m <Plug>MarkSet
+" endif
+" if !hasmapto('<Plug>MarkRegex', 'n')
+" 	nmap <unique> <silent> <Leader>r <Plug>MarkRegex
+" endif
+" if !hasmapto('<Plug>MarkRegex', 'v')
+" 	vmap <unique> <silent> <Leader>r <Plug>MarkRegex
+" endif
+" if !hasmapto('<Plug>MarkClear', 'n')
+" 	nmap <unique> <silent> <Leader>n <Plug>MarkClear
+" endif
+" " No default mapping for <Plug>MarkAllClear. 
+" " No default mapping for <Plug>MarkToggle. 
+"
+" if !hasmapto('<Plug>MarkSearchCurrentNext', 'n')
+" 	nmap <unique> <silent> <Leader>* <Plug>MarkSearchCurrentNext
+" endif
+" if !hasmapto('<Plug>MarkSearchCurrentPrev', 'n')
+" 	nmap <unique> <silent> <Leader># <Plug>MarkSearchCurrentPrev
+" endif
+" if !hasmapto('<Plug>MarkSearchAnyNext', 'n')
+" 	nmap <unique> <silent> <Leader>/ <Plug>MarkSearchAnyNext
+" endif
+" if !hasmapto('<Plug>MarkSearchAnyPrev', 'n')
+" 	nmap <unique> <silent> <Leader>? <Plug>MarkSearchAnyPrev
+" endif
+" if !hasmapto('<Plug>MarkSearchNext', 'n')
+" 	nmap <unique> <silent> * <Plug>MarkSearchNext
+" endif
+" if !hasmapto('<Plug>MarkSearchPrev', 'n')
+" 	nmap <unique> <silent> # <Plug>MarkSearchPrev
+" endif
 
 
 "- commands -------------------------------------------------------------------
